@@ -2,13 +2,13 @@
 set -eu -o pipefail
 
 TIMESTAMP="$(date '+%Y%m%d_%H%M%S')"
-LOCAL_DIR="/home/${USER}/Music"
+LOCAL_DIR="${HOME}/Music/autorip"
 OUTPUTDIR="${TIMESTAMP}"
 DROPBOX_BASE_DIR='Requested/Music'
 
 echo "==========${TIMESTAMP}=========="
 
-# Enter Music directory
+# Enter work directory
 cd "${LOCAL_DIR}"
 
 # Rip CD into flac

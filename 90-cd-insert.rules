@@ -1,1 +1,1 @@
-SUBSYSTEM=="block", KERNEL=="sr0", ACTION=="change", RUN+="/usr/bin/sudo -u tomy0000000 -i bash -c '~/Music/rip-and-upload.sh &>> ~/Music/rip-and-upload.log'"
+SUBSYSTEM=="block", KERNEL=="sr0", ACTION=="change", RUN+="/usr/bin/sudo -u tomy0000000 -i bash -c '~/Music/autorip/rip-and-upload.sh &>> ~/Music/autorip/rip-and-upload.log'"
